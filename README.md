@@ -1,1 +1,29 @@
-# Loop.c
+#include<stdio.h>
+int main()
+{
+int grade,marks;
+printf("enter the marks:");
+scanf("%d",&marks);
+if(marks>90)
+{
+for(marks=90;marks<100;marks++)
+{
+printf("grade obtained by the student is A");
+}
+}
+else if(marks>80)
+{
+for(marks=80;marks<90;marks++)
+{
+printf("grade obtained by the student is B");
+}
+}
+else
+{
+for(marks=70;marks<80;marks++)
+{
+printf("grade obtained by the student is C");
+}
+}
+return 0;
+}
